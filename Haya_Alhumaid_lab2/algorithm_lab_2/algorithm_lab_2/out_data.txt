@@ -1,0 +1,3401 @@
+Raw Data Output
+
+Test #1
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	4	4
+Explored	12	17	11	11	16	9
+Time		408	548	419	350	639	689
+Distance	15	7	3	3	3	3
+Cost		15	9	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	12	4	4	4	4
+Explored	6	12	11	11	16	7
+Time		74	272	231	258	557	494
+Distance	7	15	3	3	3	3
+Cost		7	17	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	4	4
+Explored	12	17	11	11	16	9
+Time		426	516	547	336	648	730
+Distance	15	7	3	3	3	3
+Cost		15	9	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	12	4	4	4	4
+Explored	6	12	11	11	16	7
+Time		51	167	197	149	393	449
+Distance	7	15	3	3	3	3
+Cost		7	17	5	5	5	5
+
+Test #2
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	10	4	4	4	4
+Explored	8	10	12	12	16	7
+Time		281	503	544	385	922	592
+Distance	9	13	3	3	3	3
+Cost		10	14	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	14	4	17	17	16	5
+Time		139	109	343	351	613	380
+Distance	19	3	3	3	3	3
+Cost		20	4	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	10	4	4	4	4
+Explored	8	10	12	12	16	7
+Time		279	521	588	372	1006	587
+Distance	9	13	3	3	3	3
+Cost		10	14	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	14	4	17	17	16	5
+Time		122	108	335	225	601	375
+Distance	19	3	3	3	3	3
+Cost		20	4	4	4	4	4
+
+Test #3
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	7	5	5	5	5
+Explored	11	7	25	25	16	12
+Time		357	419	789	1176	984	856
+Distance	14	8	6	6	6	6
+Cost		13	9	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	9	5	5	7	7
+Explored	9	9	25	25	16	7
+Time		100	219	441	453	608	895
+Distance	12	12	6	6	8	8
+Cost		11	13	5	5	9	9
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	7	5	5	5	5
+Explored	11	7	25	25	16	12
+Time		383	354	779	1171	945	724
+Distance	14	8	6	6	6	6
+Cost		13	9	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	9	5	5	7	7
+Explored	9	9	25	25	16	7
+Time		76	224	281	457	597	426
+Distance	12	12	6	6	8	8
+Cost		11	13	5	5	9	9
+
+Test #4
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	4	4	16	2
+Time		73	692	184	194	947	208
+Distance	2	20	2	2	2	2
+Cost		2	20	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	4	4	16	2
+Time		41	324	100	110	656	164
+Distance	2	20	2	2	2	2
+Cost		2	22	2	2	2	2
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	4	4	16	2
+Time		75	698	178	195	951	203
+Distance	2	20	2	2	2	2
+Cost		2	20	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	4	4	16	2
+Time		21	302	94	93	591	159
+Distance	2	20	2	2	2	2
+Cost		2	22	2	2	2	2
+
+Test #5
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	10	4	4	4	4
+Explored	8	10	13	13	16	9
+Time		372	502	616	665	1051	5526
+Distance	9	13	3	3	3	3
+Cost		10	12	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	10	4	4	4	4
+Explored	11	10	13	13	16	4
+Time		107	234	264	269	613	302
+Distance	13	13	3	3	3	3
+Cost		16	12	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	10	4	4	4	4
+Explored	8	10	13	13	16	9
+Time		293	470	598	659	953	798
+Distance	9	13	3	3	3	3
+Cost		10	12	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	10	4	4	4	4
+Explored	11	10	13	13	16	4
+Time		100	216	243	268	690	317
+Distance	13	13	3	3	3	3
+Cost		16	12	4	4	4	4
+
+Test #6
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	14	11	11	16	11
+Time		350	717	553	549	1006	795
+Distance	3	19	3	3	3	3
+Cost		5	17	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	14	11	11	16	3
+Time		45	340	228	239	637	264
+Distance	3	19	3	3	3	3
+Cost		5	17	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	14	11	11	16	11
+Time		126	672	547	529	1065	685
+Distance	3	19	3	3	3	3
+Cost		5	17	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	14	11	11	16	3
+Time		34	286	237	237	668	175
+Distance	3	19	3	3	3	3
+Cost		5	17	5	5	5	5
+
+Test #7
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	8	2	2	2	2
+Explored	2	8	2	2	16	3
+Time		40	384	76	91	1004	299
+Distance	1	9	1	1	1	1
+Cost		2	8	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	8	2	2	2	2
+Explored	2	8	2	2	16	1
+Time		26	187	62	62	612	121
+Distance	1	9	1	1	1	1
+Cost		2	8	2	2	2	2
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	8	2	2	2	2
+Explored	2	8	2	2	16	3
+Time		45	374	75	97	1025	325
+Distance	1	9	1	1	1	1
+Cost		2	8	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	8	2	2	2	2
+Explored	2	8	2	2	16	1
+Time		12	173	42	58	635	113
+Distance	1	9	1	1	1	1
+Cost		2	8	2	2	2	2
+
+Test #8
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	4	4
+Explored	12	6	17	17	16	4
+Time		286	290	695	790	628	452
+Distance	15	7	3	3	3	3
+Cost		15	7	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	6	4	4	6	6
+Explored	15	6	19	19	16	10
+Time		96	150	336	414	491	661
+Distance	19	7	3	3	7	7
+Cost		23	7	3	3	7	7
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	4	4
+Explored	12	6	17	17	16	4
+Time		282	296	723	780	628	450
+Distance	15	7	3	3	3	3
+Cost		15	7	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	6	4	4	6	6
+Explored	15	6	19	19	16	10
+Time		86	135	255	363	385	658
+Distance	19	7	3	3	7	7
+Cost		23	7	3	3	7	7
+
+Test #9
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		375	83	195	215	1009	237
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	14
+Time		98	72	100	125	613	719
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		383	91	169	204	1026	234
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	14
+Time		89	60	100	116	623	719
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Test #10
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	6	6	16	10
+Time		87	738	332	305	1044	880
+Distance	2	20	2	2	2	2
+Cost		4	22	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	13	3	3	3	3
+Explored	3	14	6	6	16	2
+Time		46	309	166	169	627	236
+Distance	2	18	2	2	2	2
+Cost		4	16	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	6	6	16	10
+Time		92	769	326	321	1049	848
+Distance	2	20	2	2	2	2
+Cost		4	22	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	13	3	3	3	3
+Explored	3	14	6	6	16	2
+Time		36	409	175	168	651	227
+Distance	2	18	2	2	2	2
+Cost		4	16	4	4	4	4
+
+Test #11
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	5	5	5	5
+Explored	16	5	25	25	16	14
+Time		585	264	1235	1148	993	1101
+Distance	20	6	6	6	6	6
+Cost		17	7	7	7	7	7
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	5	5	5	5
+Explored	16	5	31	31	16	14
+Time		150	132	546	554	668	821
+Distance	20	6	6	6	6	6
+Cost		21	7	7	7	7	7
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	5	5	5	5
+Explored	16	5	25	25	16	14
+Time		534	264	1156	1071	946	1096
+Distance	20	6	6	6	6	6
+Cost		17	7	7	7	7	7
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	5	5	5	5
+Explored	16	5	31	31	16	14
+Time		139	120	581	604	602	794
+Distance	20	6	6	6	6	6
+Cost		21	7	7	7	7	7
+
+Test #12
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	6	6	6	6
+Explored	6	14	30	30	16	14
+Time		204	759	1542	1304	672	749
+Distance	7	19	7	7	7	7
+Cost		8	16	8	8	8	8
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	14	6	6	6	6
+Explored	8	15	31	31	16	5
+Time		79	354	618	574	580	311
+Distance	9	19	7	7	7	7
+Cost		10	18	8	8	8	8
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	6	6	6	6
+Explored	6	14	30	30	16	14
+Time		198	744	1504	1481	699	641
+Distance	7	19	7	7	7	7
+Cost		8	16	8	8	8	8
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	14	6	6	6	6
+Explored	8	15	31	31	16	5
+Time		65	340	651	515	390	195
+Distance	9	19	7	7	7	7
+Cost		10	18	8	8	8	8
+
+Test #13
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	6	2	2	2	2
+Explored	2	6	2	2	16	4
+Time		31	302	98	94	959	431
+Distance	1	7	1	1	1	1
+Cost		2	8	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	10	2	2	2	2
+Explored	2	11	2	2	16	1
+Time		23	269	69	80	625	171
+Distance	1	13	1	1	1	1
+Cost		2	12	2	2	2	2
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	6	2	2	2	2
+Explored	2	6	2	2	16	4
+Time		31	297	95	93	987	449
+Distance	1	7	1	1	1	1
+Cost		2	8	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	10	2	2	2	2
+Explored	2	11	2	2	16	1
+Time		13	249	66	87	606	141
+Distance	1	13	1	1	1	1
+Cost		2	12	2	2	2	2
+
+Test #14
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	13	5	5	5	5
+Explored	5	13	21	21	16	14
+Time		154	634	953	1035	1114	1085
+Distance	6	18	6	6	6	6
+Cost		6	16	6	6	6	6
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	15	5	5	5	5
+Explored	5	15	21	21	16	4
+Time		53	323	398	453	615	309
+Distance	6	20	6	6	6	6
+Cost		6	20	6	6	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	13	5	5	5	5
+Explored	5	13	21	21	16	14
+Time		157	624	918	1056	913	1019
+Distance	6	18	6	6	6	6
+Cost		6	16	6	6	6	6
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	15	5	5	5	5
+Explored	5	15	21	21	16	4
+Time		40	309	388	450	615	273
+Distance	6	20	6	6	6	6
+Cost		6	20	6	6	6	6
+
+Test #15
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	10	4	4	4	4
+Explored	10	10	11	11	16	9
+Time		357	461	541	573	3429	731
+Distance	13	13	3	3	3	3
+Cost		11	13	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	6	6
+Explored	12	6	11	11	16	9
+Time		118	137	233	249	2493	601
+Distance	15	7	3	3	7	7
+Cost		15	9	5	5	7	7
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	10	4	4	4	4
+Explored	10	10	11	11	16	9
+Time		365	465	535	527	1519	743
+Distance	13	13	3	3	3	3
+Cost		11	13	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	6	6
+Explored	12	6	11	11	16	9
+Time		102	143	251	252	1134	596
+Distance	15	7	3	3	7	7
+Cost		15	9	5	5	7	7
+
+Test #16
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	16	4	22	22	16	14
+Time		594	224	1175	1022	1134	1066
+Distance	19	3	3	3	3	3
+Cost		19	5	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	16	4	25	25	16	14
+Time		146	139	486	426	696	849
+Distance	19	3	3	3	3	3
+Cost		19	5	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	16	4	22	22	16	14
+Time		578	222	1047	1393	1784	1782
+Distance	19	3	3	3	3	3
+Cost		19	5	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	16	4	25	25	16	14
+Time		131	124	446	438	949	742
+Distance	19	3	3	3	3	3
+Cost		19	5	5	5	5	5
+
+Test #17
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	4	4
+Explored	12	6	17	17	16	4
+Time		418	1279	831	784	954	472
+Distance	15	7	3	3	3	3
+Cost		15	7	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	6	4	4	6	6
+Explored	15	6	19	19	16	10
+Time		403	145	341	383	631	699
+Distance	19	7	3	3	7	7
+Cost		23	7	3	3	7	7
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	4	4
+Explored	12	6	17	17	16	4
+Time		470	279	798	833	983	470
+Distance	15	7	3	3	3	3
+Cost		15	7	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	6	4	4	6	6
+Explored	15	6	19	19	16	10
+Time		207	139	385	384	616	692
+Distance	19	7	3	3	7	7
+Cost		23	7	3	3	7	7
+
+Test #18
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	8	2	2	2	2
+Explored	8	8	3	3	16	1
+Time		284	392	145	164	962	152
+Distance	9	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	8	2	2	2	2
+Explored	2	8	2	2	16	12
+Time		31	190	71	79	588	692
+Distance	1	9	1	1	1	1
+Cost		1	9	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	8	2	2	2	2
+Explored	8	8	3	3	16	1
+Time		296	388	143	163	952	157
+Distance	9	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	8	2	2	2	2
+Explored	2	8	2	2	16	12
+Time		17	183	64	67	742	678
+Distance	1	9	1	1	1	1
+Cost		1	9	1	1	1	1
+
+Test #19
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	13	5	5	5	5
+Explored	5	13	21	21	16	14
+Time		177	610	1345	980	951	1025
+Distance	6	18	6	6	6	6
+Cost		6	16	6	6	6	6
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	15	5	5	5	5
+Explored	5	15	21	21	16	4
+Time		62	340	391	411	549	283
+Distance	6	20	6	6	6	6
+Cost		6	20	6	6	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	13	5	5	5	5
+Explored	5	13	21	21	16	14
+Time		178	628	1078	1038	994	1107
+Distance	6	18	6	6	6	6
+Cost		6	16	6	6	6	6
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	15	5	5	5	5
+Explored	5	15	21	21	16	4
+Time		45	308	440	410	611	286
+Distance	6	20	6	6	6	6
+Cost		6	20	6	6	6	6
+
+Test #20
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	16	2	2	2	2
+Explored	2	16	2	2	16	3
+Time		49	791	84	83	1015	334
+Distance	1	21	1	1	1	1
+Cost		2	20	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	14	2	2	2	2
+Explored	2	14	2	2	16	1
+Time		48	304	66	71	569	139
+Distance	1	19	1	1	1	1
+Cost		2	20	2	2	2	2
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	16	2	2	2	2
+Explored	2	16	2	2	16	3
+Time		49	845	74	88	937	334
+Distance	1	21	1	1	1	1
+Cost		2	20	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	14	2	2	2	2
+Explored	2	14	2	2	16	1
+Time		18	310	53	57	680	116
+Distance	1	19	1	1	1	1
+Cost		2	20	2	2	2	2
+
+Test #21
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	9	5	5	5	5
+Explored	7	9	24	24	16	12
+Time		290	280	1128	1206	918	909
+Distance	8	12	6	6	6	6
+Cost		10	12	6	6	6	6
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	5	5	5	5
+Explored	5	9	21	21	16	10
+Time		128	204	353	464	617	615
+Distance	6	12	6	6	6	6
+Cost		6	12	6	6	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	9	5	5	5	5
+Explored	7	9	24	24	16	12
+Time		219	348	763	1165	1025	941
+Distance	8	12	6	6	6	6
+Cost		10	12	6	6	6	6
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	5	5	5	5
+Explored	5	9	21	21	16	10
+Time		41	202	373	433	570	651
+Distance	6	12	6	6	6	6
+Cost		6	12	6	6	6	6
+
+Test #22
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	5	5	5	5	5
+Explored	13	5	31	31	16	13
+Time		494	255	1491	1320	999	1126
+Distance	18	6	6	6	6	6
+Cost		17	5	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	5	5	7	7
+Explored	16	5	28	28	16	14
+Time		157	127	545	528	565	806
+Distance	20	6	6	6	8	8
+Cost		25	5	5	5	9	9
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	5	5	5	5	5
+Explored	13	5	31	31	16	13
+Time		494	231	1225	1347	1009	1137
+Distance	18	6	6	6	6	6
+Cost		17	5	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	5	5	7	7
+Explored	16	5	28	28	16	14
+Time		148	121	548	421	595	825
+Distance	20	6	6	6	8	8
+Cost		25	5	5	5	9	9
+
+Test #23
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	12	4	4	4	4
+Explored	6	12	14	14	16	4
+Time		220	611	428	427	624	456
+Distance	7	15	3	3	3	3
+Cost		7	15	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	12	4	4	4	4
+Explored	14	12	17	17	16	6
+Time		152	267	310	364	485	435
+Distance	19	15	3	3	3	3
+Cost		21	15	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	12	4	4	4	4
+Explored	6	12	14	14	16	4
+Time		183	599	421	445	627	434
+Distance	7	15	3	3	3	3
+Cost		7	15	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	12	4	4	4	4
+Explored	14	12	17	17	16	6
+Time		115	226	208	215	389	444
+Distance	19	15	3	3	3	3
+Cost		21	15	3	3	3	3
+
+Test #24
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	4	4	4	4
+Explored	9	6	14	14	16	10
+Time		204	292	458	430	625	873
+Distance	9	7	3	3	3	3
+Cost		9	9	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	15	4	18	18	16	10
+Time		94	113	342	385	512	609
+Distance	19	3	3	3	3	3
+Cost		19	5	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	4	4	4	4
+Explored	9	6	14	14	16	10
+Time		203	206	450	423	621	889
+Distance	9	7	3	3	3	3
+Cost		9	9	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	15	4	18	18	16	10
+Time		85	62	226	232	390	701
+Distance	19	3	3	3	3	3
+Cost		19	5	5	5	5	5
+
+Test #25
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	2	2	2	2
+Explored	12	6	3	3	16	1
+Time		435	295	142	137	902	96
+Distance	15	7	1	1	1	1
+Cost		17	7	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	6	2	2	2	2
+Explored	2	6	2	2	16	13
+Time		32	171	67	72	615	621
+Distance	1	7	1	1	1	1
+Cost		1	7	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	2	2	2	2
+Explored	12	6	3	3	16	1
+Time		419	281	143	140	980	97
+Distance	15	7	1	1	1	1
+Cost		17	7	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	6	2	2	2	2
+Explored	2	6	2	2	16	13
+Time		17	138	56	56	597	447
+Distance	1	7	1	1	1	1
+Cost		1	7	1	1	1	1
+
+Test #26
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	12	6	6	6	6
+Explored	6	12	35	35	16	15
+Time		209	396	1030	1806	631	713
+Distance	7	15	7	7	7	7
+Cost		7	15	7	7	7	7
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	12	6	6	6	6
+Explored	13	12	35	35	16	6
+Time		137	275	540	659	574	442
+Distance	15	15	7	7	7	7
+Cost		19	15	7	7	7	7
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	12	6	6	6	6
+Explored	6	12	35	35	16	15
+Time		191	379	1035	1804	639	698
+Distance	7	15	7	7	7	7
+Cost		7	15	7	7	7	7
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	12	6	6	6	6
+Explored	13	12	35	35	16	6
+Time		104	167	372	661	391	277
+Distance	15	15	7	7	7	7
+Cost		19	15	7	7	7	7
+
+Test #27
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	7	3	3	3	3
+Explored	11	7	9	9	16	3
+Time		376	318	479	473	894	291
+Distance	14	8	2	2	2	2
+Cost		16	8	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	7	3	3	5	5
+Explored	3	7	5	5	16	12
+Time		42	174	132	138	668	673
+Distance	2	8	2	2	6	6
+Cost		2	8	2	2	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	7	3	3	3	3
+Explored	11	7	9	9	16	3
+Time		387	216	447	480	623	334
+Distance	14	8	2	2	2	2
+Cost		16	8	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	7	3	3	5	5
+Explored	3	7	5	5	16	12
+Time		32	104	138	137	387	757
+Distance	2	8	2	2	6	6
+Cost		2	8	2	2	6	6
+
+Test #28
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	15	3	3	3	3
+Explored	5	15	9	9	16	8
+Time		108	753	481	295	632	776
+Distance	6	20	2	2	2	2
+Cost		7	21	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	11	3	3	3	3
+Explored	5	11	9	9	16	7
+Time		38	261	205	205	522	562
+Distance	6	14	2	2	2	2
+Cost		7	15	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	15	3	3	3	3
+Explored	5	15	9	9	16	8
+Time		105	804	283	287	631	761
+Distance	6	20	2	2	2	2
+Cost		7	21	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	11	3	3	3	3
+Explored	5	11	9	9	16	7
+Time		29	276	153	122	386	461
+Distance	6	14	2	2	2	2
+Cost		7	15	3	3	3	3
+
+Test #29
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	13	5	5	5	5
+Explored	5	13	16	16	16	8
+Time		105	720	497	526	923	579
+Distance	6	18	6	6	6	6
+Cost		5	17	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	13	5	5	5	5
+Explored	14	13	19	19	16	6
+Time		90	319	320	392	596	358
+Distance	18	18	6	6	6	6
+Cost		19	17	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	13	5	5	5	5
+Explored	5	13	16	16	16	8
+Time		105	662	498	527	996	575
+Distance	6	18	6	6	6	6
+Cost		5	17	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	13	5	5	5	5
+Explored	14	13	19	19	16	6
+Time		80	311	246	253	566	346
+Distance	18	18	6	6	6	6
+Cost		19	17	5	5	5	5
+
+Test #30
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	7	3	3	3	3
+Explored	11	7	8	8	16	7
+Time		254	322	444	317	646	624
+Distance	14	8	2	2	2	2
+Cost		17	9	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	11	3	3	3	3
+Explored	11	11	8	8	16	3
+Time		74	241	204	217	544	294
+Distance	14	14	2	2	2	2
+Cost		17	13	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	7	3	3	3	3
+Explored	11	7	8	8	16	7
+Time		261	392	442	324	860	634
+Distance	14	8	2	2	2	2
+Cost		17	9	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	11	3	3	3	3
+Explored	11	11	8	8	16	3
+Time		64	262	216	126	386	277
+Distance	14	14	2	2	2	2
+Cost		17	13	3	3	3	3
+
+Test #31
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	2	2	2	2	2
+Explored	6	2	4	4	16	4
+Time		181	62	159	179	1012	357
+Distance	7	1	1	1	1	1
+Cost		6	2	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	14	2	2	4	4
+Explored	12	14	3	3	16	4
+Time		92	333	82	98	589	304
+Distance	15	19	1	1	3	3
+Cost		16	20	2	2	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	2	2	2	2	2
+Explored	6	2	4	4	16	4
+Time		214	60	114	176	966	361
+Distance	7	1	1	1	1	1
+Cost		6	2	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	14	2	2	4	4
+Explored	12	14	3	3	16	4
+Time		105	187	49	81	626	340
+Distance	15	19	1	1	3	3
+Cost		16	20	2	2	4	4
+
+Test #32
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	8	2	2	2	2
+Explored	8	8	3	3	16	1
+Time		181	384	144	148	695	98
+Distance	9	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	8	2	2	2	2
+Explored	2	8	2	2	16	12
+Time		21	184	70	74	600	606
+Distance	1	9	1	1	1	1
+Cost		1	9	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	8	2	2	2	2
+Explored	8	8	3	3	16	1
+Time		181	388	132	139	637	141
+Distance	9	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	8	2	2	2	2
+Explored	2	8	2	2	16	12
+Time		11	187	63	60	386	441
+Distance	1	9	1	1	1	1
+Cost		1	9	1	1	1	1
+
+Test #33
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	3	3
+Explored	15	3	9	9	16	7
+Time		490	156	434	439	890	638
+Distance	20	2	2	2	2	2
+Cost		19	3	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	3	3	3	3	3
+Explored	13	3	9	9	16	13
+Time		126	94	316	209	686	676
+Distance	18	2	2	2	2	2
+Cost		17	3	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	3	3
+Explored	15	3	9	9	16	7
+Time		352	98	279	452	828	614
+Distance	20	2	2	2	2	2
+Cost		19	3	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	3	3	3	3	3
+Explored	13	3	9	9	16	13
+Time		73	76	174	209	514	664
+Distance	18	2	2	2	2	2
+Cost		17	3	3	3	3	3
+
+Test #34
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	16	4	4	4	4
+Explored	16	16	17	17	16	13
+Time		626	795	808	758	1014	873
+Distance	21	21	3	3	3	3
+Cost		23	23	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	10	4	4	4	4
+Explored	8	10	17	17	16	11
+Time		95	275	512	351	593	621
+Distance	9	13	3	3	3	3
+Cost		11	13	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	16	4	4	4	4
+Explored	16	16	17	17	16	13
+Time		621	793	981	661	625	1087
+Distance	21	21	3	3	3	3
+Cost		23	23	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	10	4	4	4	4
+Explored	8	10	17	17	16	11
+Time		69	255	325	238	426	688
+Distance	9	13	3	3	3	3
+Cost		11	13	5	5	5	5
+
+Test #35
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	9	5	5	5	5
+Explored	11	9	18	18	16	10
+Time		352	361	607	558	950	501
+Distance	14	12	6	6	6	6
+Cost		12	12	6	6	6	6
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	7	5	5	5	5
+Explored	7	7	18	18	16	6
+Time		71	171	352	345	602	391
+Distance	8	8	6	6	6	6
+Cost		8	10	6	6	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	9	5	5	5	5
+Explored	11	9	18	18	16	10
+Time		388	277	551	760	636	494
+Distance	14	12	6	6	6	6
+Cost		12	12	6	6	6	6
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	7	5	5	5	5
+Explored	7	7	18	18	16	6
+Time		52	100	230	232	529	253
+Distance	8	8	6	6	6	6
+Cost		8	10	6	6	6	6
+
+Test #36
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	3	3	3	3	3
+Explored	11	3	10	10	16	8
+Time		255	144	463	453	625	667
+Distance	14	2	2	2	2	2
+Cost		14	4	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	3	3	3	3
+Explored	5	9	7	7	16	6
+Time		49	379	140	149	589	408
+Distance	6	12	2	2	2	2
+Cost		6	12	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	3	3	3	3	3
+Explored	11	3	10	10	16	8
+Time		440	153	480	387	628	632
+Distance	14	2	2	2	2	2
+Cost		14	4	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	3	3	3	3
+Explored	5	9	7	7	16	6
+Time		61	205	171	147	417	404
+Distance	6	12	2	2	2	2
+Cost		6	12	4	4	4	4
+
+Test #37
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	6	6	6	6
+Explored	6	14	30	30	16	14
+Time		130	453	1445	1572	742	690
+Distance	7	19	7	7	7	7
+Cost		8	16	8	8	8	8
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	14	6	6	6	6
+Explored	12	14	30	30	16	6
+Time		80	309	524	627	603	431
+Distance	15	19	7	7	7	7
+Cost		20	16	8	8	8	8
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	6	6	6	6
+Explored	6	14	30	30	16	14
+Time		134	458	1514	1528	781	647
+Distance	7	19	7	7	7	7
+Cost		8	16	8	8	8	8
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	14	6	6	6	6
+Explored	12	14	30	30	16	6
+Time		71	187	635	642	388	274
+Distance	15	19	7	7	7	7
+Cost		20	16	8	8	8	8
+
+Test #38
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	8	2	2	2	2
+Explored	10	8	3	3	16	1
+Time		229	386	138	133	922	148
+Distance	13	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	2	2	2	2
+Explored	14	4	3	3	16	10
+Time		87	115	79	92	574	568
+Distance	19	3	1	1	1	1
+Cost		19	5	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	8	2	2	2	2
+Explored	10	8	3	3	16	1
+Time		249	390	122	141	911	139
+Distance	13	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	2	2	2	2
+Explored	14	4	3	3	16	10
+Time		77	81	82	79	567	552
+Distance	19	3	1	1	1	1
+Cost		19	5	1	1	1	1
+
+Test #39
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	3	3
+Explored	15	3	7	7	16	2
+Time		363	134	327	331	906	238
+Distance	20	2	2	2	2	2
+Cost		20	2	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	3	3	3	5	5
+Explored	9	3	7	7	16	13
+Time		61	88	144	174	588	736
+Distance	12	2	2	2	6	6
+Cost		14	2	2	2	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	3	3
+Explored	15	3	7	7	16	2
+Time		559	134	326	280	908	201
+Distance	20	2	2	2	2	2
+Cost		20	2	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	3	3	3	5	5
+Explored	9	3	7	7	16	13
+Time		80	78	163	158	563	690
+Distance	12	2	2	2	6	6
+Cost		14	2	2	2	6	6
+
+Test #40
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	6	2	2	2	2
+Explored	10	6	4	4	16	2
+Time		238	255	184	198	933	162
+Distance	13	7	1	1	1	1
+Cost		15	7	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	2	2	2	2	2
+Explored	10	2	5	5	16	9
+Time		66	80	277	138	600	479
+Distance	13	1	1	1	1	1
+Cost		15	1	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	6	2	2	2	2
+Explored	10	6	4	4	16	2
+Time		235	194	202	201	911	160
+Distance	13	7	1	1	1	1
+Cost		15	7	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	2	2	2	2	2
+Explored	10	2	5	5	16	9
+Time		57	45	123	125	544	361
+Distance	13	1	1	1	1	1
+Cost		15	1	1	1	1	1
+
+Test #41
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	2	2	2	2
+Explored	6	14	3	3	16	1
+Time		131	450	136	156	947	180
+Distance	7	19	1	1	1	1
+Cost		9	19	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	7
+Time		46	193	93	111	614	491
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	2	2	2	2
+Explored	6	14	3	3	16	1
+Time		130	439	138	162	897	178
+Distance	7	19	1	1	1	1
+Cost		9	19	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	7
+Time		36	113	82	103	616	494
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Test #42
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	5	5	5	5	5
+Explored	13	5	27	27	16	14
+Time		480	244	1340	1283	925	1098
+Distance	18	6	6	6	6	6
+Cost		16	6	6	6	6	6
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	5	5	5	5	5
+Explored	9	5	23	23	16	13
+Time		83	133	451	445	594	765
+Distance	12	6	6	6	6	6
+Cost		12	6	6	6	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	5	5	5	5	5
+Explored	13	5	27	27	16	14
+Time		526	243	1195	1228	918	876
+Distance	18	6	6	6	6	6
+Cost		16	6	6	6	6	6
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	5	5	5	5	5
+Explored	9	5	23	23	16	13
+Time		92	129	450	426	613	839
+Distance	12	6	6	6	6	6
+Cost		12	6	6	6	6	6
+
+Test #43
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		614	91	148	172	971	209
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	14
+Time		151	78	104	129	598	804
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		493	59	138	124	915	232
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	14
+Time		137	41	71	68	574	765
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Test #44
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	5	5	5	5	5
+Explored	13	5	27	27	16	14
+Time		309	164	796	826	952	668
+Distance	18	6	6	6	6	6
+Cost		16	6	6	6	6	6
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	5	5	5	5	5
+Explored	9	5	23	23	16	13
+Time		61	119	323	431	571	686
+Distance	12	6	6	6	6	6
+Cost		12	6	6	6	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	5	5	5	5	5
+Explored	13	5	27	27	16	14
+Time		302	221	794	807	968	658
+Distance	18	6	6	6	6	6
+Cost		16	6	6	6	6	6
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	5	5	5	5	5
+Explored	9	5	23	23	16	13
+Time		51	75	267	337	581	460
+Distance	12	6	6	6	6	6
+Cost		12	6	6	6	6	6
+
+Test #45
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	3	3	3	3	3
+Explored	10	3	10	10	16	8
+Time		352	118	391	435	650	473
+Distance	12	2	2	2	2	2
+Cost		10	4	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	7	3	3	5	5
+Explored	11	7	8	8	16	9
+Time		113	167	175	188	565	576
+Distance	14	8	2	2	6	6
+Cost		14	10	4	4	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	3	3	3	3	3
+Explored	10	3	10	10	16	8
+Time		359	95	301	452	629	406
+Distance	12	2	2	2	2	2
+Cost		10	4	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	7	3	3	5	5
+Explored	11	7	8	8	16	9
+Time		98	99	112	167	387	362
+Distance	14	8	2	2	6	6
+Cost		14	10	4	4	6	6
+
+Test #46
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	12	6	6	6	6
+Explored	8	12	33	33	16	13
+Time		180	374	1698	1515	941	976
+Distance	9	15	7	7	7	7
+Cost		11	13	7	7	7	7
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	6	6	10	10
+Explored	6	9	30	30	16	10
+Time		42	205	599	626	577	551
+Distance	7	9	7	7	13	13
+Cost		7	11	7	7	15	15
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	12	6	6	6	6
+Explored	8	12	33	33	16	13
+Time		184	373	1701	1602	936	1035
+Distance	9	15	7	7	7	7
+Cost		11	13	7	7	7	7
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	6	6	10	10
+Explored	6	9	30	30	16	10
+Time		32	130	633	559	558	651
+Distance	7	9	7	7	13	13
+Cost		7	11	7	7	15	15
+
+Test #47
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	5	5	5	5
+Explored	15	7	25	25	16	12
+Time		632	356	1230	1239	1020	1070
+Distance	20	8	6	6	6	6
+Cost		19	9	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	5	5	5	5
+Explored	15	7	25	25	16	10
+Time		160	163	433	468	672	654
+Distance	20	8	6	6	6	6
+Cost		23	9	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	5	5	5	5
+Explored	15	7	25	25	16	12
+Time		503	415	1251	1123	1079	967
+Distance	20	8	6	6	6	6
+Cost		19	9	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	5	5	5	5
+Explored	15	7	25	25	16	10
+Time		181	664	452	500	628	594
+Distance	20	8	6	6	6	6
+Cost		23	9	5	5	5	5
+
+Test #48
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	12	2	2	2	2
+Explored	2	12	2	2	16	4
+Time		53	580	93	100	1048	461
+Distance	1	15	1	1	1	1
+Cost		2	16	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	14	2	2	2	2
+Explored	2	14	2	2	16	1
+Time		39	314	73	86	607	148
+Distance	1	19	1	1	1	1
+Cost		2	20	2	2	2	2
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	12	2	2	2	2
+Explored	2	12	2	2	16	4
+Time		52	606	93	101	1016	482
+Distance	1	15	1	1	1	1
+Cost		2	16	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	14	2	2	2	2
+Explored	2	14	2	2	16	1
+Time		21	305	67	72	628	162
+Distance	1	19	1	1	1	1
+Cost		2	20	2	2	2	2
+
+Test #49
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	12	2	2	2	2
+Explored	2	16	2	2	16	1
+Time		44	753	88	103	951	149
+Distance	1	15	1	1	1	1
+Cost		1	17	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	14	2	2	2	2
+Explored	2	15	2	2	16	1
+Time		28	320	62	88	626	153
+Distance	1	19	1	1	1	1
+Cost		1	21	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	12	2	2	2	2
+Explored	2	16	2	2	16	1
+Time		48	847	91	100	1059	165
+Distance	1	15	1	1	1	1
+Cost		1	17	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	14	2	2	2	2
+Explored	2	15	2	2	16	1
+Time		15	346	55	74	562	142
+Distance	1	19	1	1	1	1
+Cost		1	21	1	1	1	1
+
+Test #50
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	14	4	22	22	16	14
+Time		484	229	1100	1100	1009	1270
+Distance	19	3	3	3	3	3
+Cost		21	5	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	4	4	4	4
+Explored	9	6	20	20	16	13
+Time		95	181	379	399	630	791
+Distance	9	7	3	3	3	3
+Cost		11	7	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	14	4	22	22	16	14
+Time		463	226	1021	1109	987	5510
+Distance	19	3	3	3	3	3
+Cost		21	5	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	4	4	4	4
+Explored	9	6	20	20	16	13
+Time		68	168	1161	390	653	662
+Distance	9	7	3	3	3	3
+Cost		11	7	5	5	5	5
+
+Test #51
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	9	3	3	3	3
+Explored	9	9	8	8	16	7
+Time		976	472	359	378	1014	603
+Distance	12	12	2	2	2	2
+Cost		11	11	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	3	3	3	3
+Explored	5	9	7	7	16	8
+Time		55	375	148	162	672	471
+Distance	6	12	2	2	2	2
+Cost		7	11	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	9	3	3	3	3
+Explored	9	9	8	8	16	7
+Time		329	493	411	368	972	572
+Distance	12	12	2	2	2	2
+Cost		11	11	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	3	3	3	3
+Explored	5	9	7	7	16	8
+Time		50	219	169	154	547	461
+Distance	6	12	2	2	2	2
+Cost		7	11	3	3	3	3
+
+Test #52
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	4	4	4	4	4
+Explored	14	4	16	16	16	8
+Time		503	233	838	783	932	701
+Distance	13	3	3	3	3	3
+Cost		14	4	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	6	6
+Explored	14	4	17	17	16	11
+Time		141	125	356	437	570	718
+Distance	19	3	3	3	7	7
+Cost		22	4	4	4	8	8
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	4	4	4	4	4
+Explored	14	4	16	16	16	8
+Time		507	209	832	791	899	703
+Distance	13	3	3	3	3	3
+Cost		14	4	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	6	6
+Explored	14	4	17	17	16	11
+Time		121	109	371	361	566	710
+Distance	19	3	3	3	7	7
+Cost		22	4	4	4	8	8
+
+Test #53
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	3	3	3	3	3
+Explored	13	3	13	13	16	9
+Time		441	147	701	630	1072	701
+Distance	18	2	2	2	2	2
+Cost		17	3	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	3	3	3	3	3
+Explored	13	3	13	13	16	14
+Time		136	101	289	295	655	660
+Distance	18	2	2	2	2	2
+Cost		17	3	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	3	3	3	3	3
+Explored	13	3	13	13	16	9
+Time		447	141	692	624	1068	701
+Distance	18	2	2	2	2	2
+Cost		17	3	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	3	3	3	3	3
+Explored	13	3	13	13	16	14
+Time		119	94	320	284	659	654
+Distance	18	2	2	2	2	2
+Cost		17	3	3	3	3	3
+
+Test #54
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	8	2	2	2	2
+Explored	10	8	3	3	16	1
+Time		392	407	126	157	900	152
+Distance	13	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	8
+Time		68	185	88	104	608	506
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	8	2	2	2	2
+Explored	10	8	3	3	16	1
+Time		363	431	136	154	677	151
+Distance	13	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	8
+Time		54	194	82	89	387	554
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Test #55
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	2	2	2	2
+Explored	6	14	3	3	16	1
+Time		220	663	148	157	968	183
+Distance	7	19	1	1	1	1
+Cost		9	19	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	7
+Time		75	191	94	108	557	448
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	2	2	2	2
+Explored	6	14	3	3	16	1
+Time		221	453	138	159	1083	165
+Distance	7	19	1	1	1	1
+Cost		9	19	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	7
+Time		61	114	95	98	556	464
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Test #56
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	3	3	3	3
+Explored	5	9	7	7	16	6
+Time		157	497	324	361	1060	548
+Distance	6	12	2	2	2	2
+Cost		5	13	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	15	3	3	3	3
+Explored	11	15	8	8	16	2
+Time		122	354	169	208	672	241
+Distance	14	20	2	2	2	2
+Cost		15	21	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	3	3	3	3
+Explored	5	9	7	7	16	6
+Time		180	548	314	366	972	577
+Distance	6	12	2	2	2	2
+Cost		5	13	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	15	3	3	3	3
+Explored	11	15	8	8	16	2
+Time		102	340	151	195	662	225
+Distance	14	20	2	2	2	2
+Cost		15	21	3	3	3	3
+
+Test #57
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	2	2	2	2
+Explored	6	14	3	3	16	1
+Time		212	701	142	166	980	157
+Distance	7	19	1	1	1	1
+Cost		9	19	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	7
+Time		66	181	90	118	596	458
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	2	2	2	2
+Explored	6	14	3	3	16	1
+Time		173	721	156	165	1041	157
+Distance	7	19	1	1	1	1
+Cost		9	19	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	7
+Time		55	172	98	106	569	499
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Test #58
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	9	5	5	5	5
+Explored	13	9	28	28	16	15
+Time		495	412	1423	1073	630	1050
+Distance	18	12	6	6	6	6
+Cost		20	12	6	6	6	6
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	13	5	5	5	5
+Explored	13	13	28	28	16	5
+Time		144	274	455	449	742	741
+Distance	18	18	6	6	6	6
+Cost		20	16	6	6	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	9	5	5	5	5
+Explored	13	9	28	28	16	15
+Time		423	478	1265	1345	636	1094
+Distance	18	12	6	6	6	6
+Cost		20	12	6	6	6	6
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	13	5	5	5	5
+Explored	13	13	28	28	16	5
+Time		111	282	447	467	391	441
+Distance	18	18	6	6	6	6
+Cost		20	16	6	6	6	6
+
+Test #59
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		547	94	199	195	967	239
+Distance	15	1	1	1	1	1
+Cost		17	1	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	13
+Time		97	80	105	116	593	765
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		381	91	169	209	991	235
+Distance	15	1	1	1	1	1
+Cost		17	1	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	13
+Time		88	61	96	101	586	755
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Test #60
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	4	4
+Explored	12	6	17	17	16	4
+Time		284	317	518	537	633	282
+Distance	15	7	3	3	3	3
+Cost		15	7	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	6	4	4	6	6
+Explored	15	6	19	19	16	10
+Time		94	159	329	386	569	554
+Distance	19	7	3	3	7	7
+Cost		23	7	3	3	7	7
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	6	4	4	4	4
+Explored	12	6	17	17	16	4
+Time		276	405	515	523	634	271
+Distance	15	7	3	3	3	3
+Cost		15	7	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	6	4	4	6	6
+Explored	15	6	19	19	16	10
+Time		85	145	235	237	385	504
+Distance	19	7	3	3	7	7
+Cost		23	7	3	3	7	7
+
+Test #61
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	5	5	5	5
+Explored	15	5	22	22	16	13
+Time		598	231	1144	674	1063	614
+Distance	20	6	6	6	6	6
+Cost		17	7	7	7	7	7
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	5	5	5	5	5
+Explored	7	5	16	16	16	13
+Time		85	131	342	310	664	580
+Distance	8	6	6	6	6	6
+Cost		9	7	7	7	7	7
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	5	5	5	5
+Explored	15	5	22	22	16	13
+Time		597	148	962	682	1058	785
+Distance	20	6	6	6	6	6
+Cost		17	7	7	7	7	7
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	5	5	5	5	5
+Explored	7	5	16	16	16	13
+Time		71	71	367	212	655	444
+Distance	8	6	6	6	6	6
+Cost		9	7	7	7	7	7
+
+Test #62
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	6	2	2	2	2
+Explored	2	6	2	2	16	4
+Time		50	278	84	99	1060	392
+Distance	1	7	1	1	1	1
+Cost		2	6	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	2	2	2	2
+Explored	8	6	3	3	16	1
+Time		88	157	76	89	654	150
+Distance	9	7	1	1	1	1
+Cost		12	6	2	2	2	2
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	6	2	2	2	2
+Explored	2	6	2	2	16	4
+Time		51	185	92	99	1061	394
+Distance	1	7	1	1	1	1
+Cost		2	6	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	2	2	2	2
+Explored	8	6	3	3	16	1
+Time		74	90	68	73	654	141
+Distance	9	7	1	1	1	1
+Cost		12	6	2	2	2	2
+
+Test #63
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	3	3	3	3
+Explored	15	5	8	8	16	7
+Time		350	269	279	416	693	412
+Distance	20	6	2	2	2	2
+Cost		21	7	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	11	3	3	3	3
+Explored	15	12	8	8	16	6
+Time		93	295	188	222	491	414
+Distance	20	14	2	2	2	2
+Cost		21	13	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	3	3	3	3
+Explored	15	5	8	8	16	7
+Time		519	265	254	413	626	413
+Distance	20	6	2	2	2	2
+Cost		21	7	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	11	3	3	3	3
+Explored	15	12	8	8	16	6
+Time		85	285	127	212	385	262
+Distance	20	14	2	2	2	2
+Cost		21	13	3	3	3	3
+
+Test #64
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	3	3
+Explored	15	3	15	15	16	12
+Time		492	166	715	509	1606	1007
+Distance	20	2	2	2	2	2
+Cost		22	4	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	9	3	3	3	3
+Explored	7	9	11	11	16	12
+Time		78	258	212	239	612	690
+Distance	8	12	2	2	2	2
+Cost		10	12	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	3	3
+Explored	15	3	15	15	16	12
+Time		539	118	714	459	1073	3372
+Distance	20	2	2	2	2	2
+Cost		22	4	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	9	3	3	3	3
+Explored	7	9	11	11	16	12
+Time		71	206	233	140	664	846
+Distance	8	12	2	2	2	2
+Cost		10	12	4	4	4	4
+
+Test #65
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	7	7	7	7	7
+Explored	13	7	50	50	16	15
+Time		303	354	1478	1474	793	1116
+Distance	18	8	8	8	8	8
+Cost		15	9	9	9	9	9
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	7	7	7	7
+Explored	16	7	50	50	16	15
+Time		104	778	712	704	606	814
+Distance	20	8	8	8	8	8
+Cost		23	9	9	9	9	9
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	7	7	7	7	7
+Explored	13	7	50	50	16	15
+Time		304	331	1483	1575	626	1072
+Distance	18	8	8	8	8	8
+Cost		15	9	9	9	9	9
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	7	7	7	7
+Explored	16	7	50	50	16	15
+Time		89	166	555	552	387	751
+Distance	20	8	8	8	8	8
+Cost		23	9	9	9	9	9
+
+Test #66
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	15	11	11	16	11
+Time		83	473	404	364	768	894
+Distance	3	19	3	3	3	3
+Cost		6	16	6	6	6	6
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	4	4	4	4
+Explored	6	15	12	12	16	3
+Time		42	344	239	255	575	312
+Distance	7	19	3	3	3	3
+Cost		8	16	6	6	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	15	11	11	16	11
+Time		127	458	333	337	1042	880
+Distance	3	19	3	3	3	3
+Cost		6	16	6	6	6	6
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	14	4	4	4	4
+Explored	6	15	12	12	16	3
+Time		31	198	154	157	630	304
+Distance	7	19	3	3	3	3
+Cost		8	16	6	6	6	6
+
+Test #67
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	7	7	7	7	7
+Explored	13	7	50	50	16	15
+Time		435	216	1481	1474	627	740
+Distance	18	8	8	8	8	8
+Cost		15	9	9	9	9	9
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	9	7	7	7	7
+Explored	9	9	50	50	16	11
+Time		60	207	608	589	426	653
+Distance	12	12	8	8	8	8
+Cost		11	13	9	9	9	9
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	7	7	7	7	7
+Explored	13	7	50	50	16	15
+Time		845	228	1469	1499	623	671
+Distance	18	8	8	8	8	8
+Cost		15	9	9	9	9	9
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	9	7	7	7	7
+Explored	9	9	50	50	16	11
+Time		112	125	552	552	385	421
+Distance	12	12	8	8	8	8
+Cost		11	13	9	9	9	9
+
+Test #68
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		376	90	190	215	1511	155
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	14
+Time		98	75	101	116	612	630
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		383	93	120	198	950	147
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	14
+Time		89	65	91	109	715	463
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Test #69
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	14	11	11	16	11
+Time		80	432	465	455	626	559
+Distance	3	19	3	3	3	3
+Cost		5	17	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	14	11	11	16	3
+Time		30	255	225	393	470	255
+Distance	3	19	3	3	3	3
+Cost		5	17	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	14	11	11	16	11
+Time		80	430	338	336	621	550
+Distance	3	19	3	3	3	3
+Cost		5	17	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	14	11	11	16	3
+Time		21	184	148	149	398	158
+Distance	3	19	3	3	3	3
+Cost		5	17	5	5	5	5
+
+Test #70
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	10	2	2	2	2
+Explored	8	10	3	3	16	1
+Time		179	313	132	86	626	148
+Distance	9	13	1	1	1	1
+Cost		9	13	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	10	2	2	2	2
+Explored	4	10	3	3	16	1
+Time		29	229	76	74	476	132
+Distance	3	13	1	1	1	1
+Cost		5	13	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	10	2	2	2	2
+Explored	8	10	3	3	16	1
+Time		178	307	88	85	621	193
+Distance	9	13	1	1	1	1
+Cost		9	13	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	10	2	2	2	2
+Explored	4	10	3	3	16	1
+Time		21	136	73	45	385	133
+Distance	3	13	1	1	1	1
+Cost		5	13	1	1	1	1
+
+Test #71
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	8	2	2	2	2
+Explored	8	8	3	3	16	1
+Time		180	404	143	150	1058	107
+Distance	9	9	1	1	1	1
+Cost		11	11	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	2	2	2	2
+Explored	8	6	3	3	16	7
+Time		59	155	87	99	691	374
+Distance	9	7	1	1	1	1
+Cost		11	7	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	8	2	2	2	2
+Explored	8	8	3	3	16	1
+Time		180	253	142	238	1049	107
+Distance	9	9	1	1	1	1
+Cost		11	11	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	2	2	2	2
+Explored	8	6	3	3	16	7
+Time		50	91	91	89	653	285
+Distance	9	7	1	1	1	1
+Cost		11	7	1	1	1	1
+
+Test #72
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	7	7	7	7	7
+Explored	13	7	50	50	16	15
+Time		467	337	1482	1695	960	792
+Distance	18	8	8	8	8	8
+Cost		15	9	9	9	9	9
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	7	7	7	7
+Explored	16	7	50	50	16	15
+Time		133	179	627	592	561	574
+Distance	20	8	8	8	8	8
+Cost		23	9	9	9	9	9
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	7	7	7	7	7
+Explored	13	7	50	50	16	15
+Time		469	217	1767	1514	766	1128
+Distance	18	8	8	8	8	8
+Cost		15	9	9	9	9	9
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	7	7	7	7
+Explored	16	7	50	50	16	15
+Time		142	98	551	565	575	633
+Distance	20	8	8	8	8	8
+Cost		23	9	9	9	9	9
+
+Test #73
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	3	3	16	1
+Time		488	83	121	133	627	99
+Distance	21	1	1	1	1	1
+Cost		21	1	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	8	2	3	3	16	12
+Time		55	82	126	81	476	586
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	3	3	16	1
+Time		373	64	89	136	628	84
+Distance	21	1	1	1	1	1
+Cost		21	1	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	8	2	3	3	16	12
+Time		46	37	63	77	385	432
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Test #74
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	12	2	2	2	2
+Explored	2	16	2	2	16	1
+Time		30	489	85	59	625	128
+Distance	1	15	1	1	1	1
+Cost		1	17	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	14	2	2	2	2
+Explored	2	15	2	2	16	1
+Time		20	223	66	67	435	140
+Distance	1	19	1	1	1	1
+Cost		1	21	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	12	2	2	2	2
+Explored	2	16	2	2	16	1
+Time		30	488	53	57	705	95
+Distance	1	15	1	1	1	1
+Cost		1	17	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	14	2	2	2	2
+Explored	2	15	2	2	16	1
+Time		11	195	36	38	388	80
+Distance	1	19	1	1	1	1
+Cost		1	21	1	1	1	1
+
+Test #75
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	10	4	4	4	4
+Explored	12	10	17	17	16	14
+Time		277	313	513	515	624	662
+Distance	15	13	3	3	3	3
+Cost		19	13	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	14	4	4	4	4
+Explored	12	14	17	17	16	4
+Time		79	245	294	294	434	347
+Distance	15	19	3	3	3	3
+Cost		19	17	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	10	4	4	4	4
+Explored	12	10	17	17	16	14
+Time		277	311	507	511	624	657
+Distance	15	13	3	3	3	3
+Cost		19	13	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	14	4	4	4	4
+Explored	12	14	17	17	16	4
+Time		70	184	205	207	386	227
+Distance	15	19	3	3	3	3
+Cost		19	17	5	5	5	5
+
+Test #76
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	14	4	18	18	16	10
+Time		357	142	547	550	625	600
+Distance	19	3	3	3	3	3
+Cost		18	4	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	4	4	4	4	4
+Explored	9	4	16	16	16	13
+Time		60	110	223	295	542	550
+Distance	9	3	3	3	3	3
+Cost		12	4	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	4	4	4	4	4
+Explored	14	4	18	18	16	10
+Time		326	120	551	547	621	516
+Distance	19	3	3	3	3	3
+Cost		18	4	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	4	4	4	4	4
+Explored	9	4	16	16	16	13
+Time		51	61	205	207	394	456
+Distance	9	3	3	3	3	3
+Cost		12	4	4	4	4	4
+
+Test #77
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	8	2	2	2	2
+Explored	10	8	3	3	16	1
+Time		228	251	151	147	627	97
+Distance	13	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	8
+Time		42	189	80	98	458	398
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	8	2	2	2	2
+Explored	10	8	3	3	16	1
+Time		228	248	86	89	622	95
+Distance	13	9	1	1	1	1
+Cost		13	9	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	8	2	2	2	2
+Explored	6	8	3	3	16	8
+Time		34	112	49	77	384	320
+Distance	7	9	1	1	1	1
+Cost		9	9	1	1	1	1
+
+Test #78
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	12	4	4	4	4
+Explored	6	12	9	9	16	6
+Time		129	385	337	273	626	318
+Distance	7	15	3	3	3	3
+Cost		6	16	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	12	4	4	4	4
+Explored	11	12	9	9	16	3
+Time		72	281	191	160	464	221
+Distance	13	15	3	3	3	3
+Cost		14	16	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	12	4	4	4	4
+Explored	6	12	9	9	16	6
+Time		129	384	270	358	671	339
+Distance	7	15	3	3	3	3
+Cost		6	16	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	12	4	4	4	4
+Explored	11	12	9	9	16	3
+Time		63	179	123	125	384	145
+Distance	13	15	3	3	3	3
+Cost		14	16	4	4	4	4
+
+Test #79
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	10	4	4	4	4
+Explored	10	10	9	9	16	8
+Time		231	308	333	275	624	596
+Distance	13	13	3	3	3	3
+Cost		13	11	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	10	4	4	4	4
+Explored	6	10	9	9	16	3
+Time		60	179	178	193	464	348
+Distance	7	13	3	3	3	3
+Cost		9	11	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		10	10	4	4	4	4
+Explored	10	10	9	9	16	8
+Time		301	306	269	286	621	452
+Distance	13	13	3	3	3	3
+Cost		13	11	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	10	4	4	4	4
+Explored	6	10	9	9	16	3
+Time		31	137	118	120	386	189
+Distance	7	13	3	3	3	3
+Cost		9	11	5	5	5	5
+
+Test #80
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		528	101	148	148	674	138
+Distance	15	1	1	1	1	1
+Cost		17	1	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	13
+Time		99	79	101	111	615	551
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		12	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		660	109	117	121	624	136
+Distance	15	1	1	1	1	1
+Cost		17	1	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	13
+Time		128	65	60	64	385	455
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Test #81
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	3	3	3	3	3
+Explored	11	3	15	15	16	12
+Time		253	101	455	453	629	593
+Distance	14	2	2	2	2	2
+Cost		14	4	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	5	3	3	5	5
+Explored	11	5	12	12	16	13
+Time		72	135	199	197	495	555
+Distance	14	6	2	2	6	6
+Cost		14	6	4	4	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	3	3	3	3	3
+Explored	11	3	15	15	16	12
+Time		252	98	467	453	896	592
+Distance	14	2	2	2	2	2
+Cost		14	4	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	5	3	3	5	5
+Explored	11	5	12	12	16	13
+Time		64	80	163	166	429	460
+Distance	14	6	2	2	6	6
+Cost		14	6	4	4	6	6
+
+Test #82
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	13	5	5	5	5
+Explored	5	13	21	21	16	11
+Time		105	402	633	638	627	553
+Distance	6	18	6	6	6	6
+Cost		5	17	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	15	5	5	5	5
+Explored	5	16	21	21	16	15
+Time		36	243	337	291	394	552
+Distance	6	20	6	6	6	6
+Cost		5	21	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	13	5	5	5	5
+Explored	5	13	21	21	16	11
+Time		104	400	630	636	732	547
+Distance	6	18	6	6	6	6
+Cost		5	17	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	15	5	5	5	5
+Explored	5	16	21	21	16	15
+Time		27	203	257	259	384	473
+Distance	6	20	6	6	6	6
+Cost		5	21	5	5	5	5
+
+Test #83
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	9	3	3	3	3
+Explored	3	9	4	4	16	6
+Time		55	281	120	156	634	320
+Distance	2	12	2	2	2	2
+Cost		4	10	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	11	3	3	3	3
+Explored	15	12	6	6	16	2
+Time		91	305	134	151	481	172
+Distance	20	14	2	2	2	2
+Cost		22	14	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	9	3	3	3	3
+Explored	3	9	4	4	16	6
+Time		55	275	117	120	624	317
+Distance	2	12	2	2	2	2
+Cost		4	10	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	11	3	3	3	3
+Explored	15	12	6	6	16	2
+Time		85	166	79	87	383	104
+Distance	20	14	2	2	2	2
+Cost		22	14	4	4	4	4
+
+Test #84
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		373	95	149	151	627	149
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	14
+Time		98	78	101	121	479	553
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	16	2	4	4	16	2
+Time		378	59	120	123	635	147
+Distance	9	1	1	1	1	1
+Cost		13	1	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		16	2	2	2	2	2
+Explored	16	2	4	4	16	14
+Time		89	39	64	68	382	463
+Distance	21	1	1	1	1	1
+Cost		25	1	1	1	1	1
+
+Test #85
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	8	2	5	5	16	5
+Time		180	97	255	162	583	326
+Distance	9	1	1	1	1	1
+Cost		12	2	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	2	2	2	2
+Explored	8	6	4	4	16	12
+Time		54	151	112	112	492	504
+Distance	9	7	1	1	1	1
+Cost		12	6	2	2	2	2
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	8	2	5	5	16	5
+Time		178	59	145	161	580	343
+Distance	9	1	1	1	1	1
+Cost		12	2	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	2	2	2	2
+Explored	8	6	4	4	16	12
+Time		45	100	69	73	382	403
+Distance	9	7	1	1	1	1
+Cost		12	6	2	2	2	2
+
+Test #86
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	7	7	7	7	7
+Explored	13	7	50	50	16	15
+Time		303	326	1481	1478	633	1058
+Distance	18	8	8	8	8	8
+Cost		15	9	9	9	9	9
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	7	7	7	7
+Explored	16	7	50	50	16	15
+Time		98	161	619	822	557	1030
+Distance	20	8	8	8	8	8
+Cost		23	9	9	9	9	9
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		13	7	7	7	7	7
+Explored	13	7	50	50	16	15
+Time		302	214	1472	1478	1003	1047
+Distance	18	8	8	8	8	8
+Cost		15	9	9	9	9	9
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	7	7	7	7	7
+Explored	16	7	50	50	16	15
+Time		89	109	550	555	385	2319
+Distance	20	8	8	8	8	8
+Cost		23	9	9	9	9	9
+
+Test #87
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	3	3	3	3
+Explored	15	5	8	8	16	7
+Time		351	232	397	525	988	751
+Distance	20	6	2	2	2	2
+Cost		21	7	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	11	3	3	3	3
+Explored	15	12	8	8	16	6
+Time		95	366	181	200	988	501
+Distance	20	14	2	2	2	2
+Cost		21	13	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	3	3	3	3
+Explored	15	5	8	8	16	7
+Time		349	252	649	291	1224	899
+Distance	20	6	2	2	2	2
+Cost		21	7	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	11	3	3	3	3
+Explored	15	12	8	8	16	6
+Time		85	345	194	211	732	475
+Distance	20	14	2	2	2	2
+Cost		21	13	3	3	3	3
+
+Test #88
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	16	6	6	6	6
+Explored	6	16	35	35	16	15
+Time		212	773	1021	1126	910	1176
+Distance	7	21	7	7	7	7
+Cost		8	20	8	8	8	8
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	16	6	6	6	6
+Explored	6	16	35	35	16	15
+Time		43	338	411	596	609	877
+Distance	7	21	7	7	7	7
+Cost		8	20	8	8	8	8
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	16	6	6	6	6
+Explored	6	16	35	35	16	15
+Time		197	773	1021	1036	630	846
+Distance	7	21	7	7	7	7
+Cost		8	20	8	8	8	8
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		6	16	6	6	6	6
+Explored	6	16	35	35	16	15
+Time		49	324	373	370	439	715
+Distance	7	21	7	7	7	7
+Cost		8	20	8	8	8	8
+
+Test #89
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	16	16	16	16	13
+Time		83	804	695	489	641	639
+Distance	3	19	3	3	3	3
+Cost		5	19	5	5	5	5
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	16	4	4	4	4
+Explored	4	16	16	16	16	15
+Time		38	333	304	339	578	628
+Distance	3	21	3	3	3	3
+Cost		5	19	5	5	5	5
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	14	4	4	4	4
+Explored	4	16	16	16	16	13
+Time		82	798	534	490	636	630
+Distance	3	19	3	3	3	3
+Cost		5	19	5	5	5	5
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	16	4	4	4	4
+Explored	4	16	16	16	16	15
+Time		28	353	303	205	385	485
+Distance	3	21	3	3	3	3
+Cost		5	19	5	5	5	5
+
+Test #90
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	3	3
+Explored	15	3	15	15	16	12
+Time		354	102	453	458	647	597
+Distance	20	2	2	2	2	2
+Cost		22	4	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	9	3	3	3	3
+Explored	7	9	11	11	16	12
+Time		52	178	206	207	462	480
+Distance	8	12	2	2	2	2
+Cost		10	12	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	3	3
+Explored	15	3	15	15	16	12
+Time		349	97	446	452	623	594
+Distance	20	2	2	2	2	2
+Cost		22	4	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	9	3	3	3	3
+Explored	7	9	11	11	16	12
+Time		42	136	142	140	395	438
+Distance	8	12	2	2	2	2
+Cost		10	12	4	4	4	4
+
+Test #91
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	8	2	2	2	2
+Explored	8	8	3	3	16	2
+Time		180	292	108	116	625	148
+Distance	9	9	1	1	1	1
+Cost		9	13	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	2	2	2	2	2
+Explored	14	2	4	4	16	2
+Time		90	79	104	114	408	156
+Distance	19	1	1	1	1	1
+Cost		19	1	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	8	2	2	2	2
+Explored	8	8	3	3	16	2
+Time		181	248	88	92	621	150
+Distance	9	9	1	1	1	1
+Cost		9	13	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		14	2	2	2	2	2
+Explored	14	2	4	4	16	2
+Time		81	40	61	68	386	117
+Distance	19	1	1	1	1	1
+Cost		19	1	1	1	1	1
+
+Test #92
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	6	6	16	10
+Time		57	467	192	208	627	524
+Distance	2	20	2	2	2	2
+Cost		4	22	4	4	4	4
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	13	3	3	3	3
+Explored	3	14	6	6	16	2
+Time		31	263	123	152	483	210
+Distance	2	18	2	2	2	2
+Cost		4	16	4	4	4	4
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	6	6	16	10
+Time		57	550	195	194	653	542
+Distance	2	20	2	2	2	2
+Cost		4	22	4	4	4	4
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	13	3	3	3	3
+Explored	3	14	6	6	16	2
+Time		21	184	99	103	382	143
+Distance	2	18	2	2	2	2
+Cost		4	16	4	4	4	4
+
+Test #93
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	16	4	4	4	4
+Explored	4	16	8	8	16	10
+Time		80	491	245	263	624	672
+Distance	3	21	3	3	3	3
+Cost		6	18	6	6	6	6
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	16	4	4	6	6
+Explored	4	16	8	8	16	15
+Time		30	289	166	192	460	558
+Distance	3	21	3	3	7	7
+Cost		6	18	6	6	8	8
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	16	4	4	4	4
+Explored	4	16	8	8	16	10
+Time		80	488	249	244	621	490
+Distance	3	21	3	3	3	3
+Cost		6	18	6	6	6	6
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		4	16	4	4	6	6
+Explored	4	16	8	8	16	15
+Time		21	203	109	112	387	487
+Distance	3	21	3	3	7	7
+Cost		6	18	6	6	8	8
+
+Test #94
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	3	3	3	3
+Explored	15	5	12	12	16	3
+Time		372	254	533	624	923	227
+Distance	20	6	2	2	2	2
+Cost		24	6	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	5	5
+Explored	15	3	15	15	16	10
+Time		101	117	289	306	562	537
+Distance	20	2	2	2	6	6
+Cost		24	2	2	2	6	6
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	5	3	3	3	3
+Explored	15	5	12	12	16	3
+Time		350	156	484	622	1008	224
+Distance	20	6	2	2	2	2
+Cost		24	6	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		15	3	3	3	5	5
+Explored	15	3	15	15	16	10
+Time		85	63	281	285	633	392
+Distance	20	2	2	2	6	6
+Cost		24	2	2	2	6	6
+
+Test #95
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	8	2	5	5	16	5
+Time		178	63	299	170	629	343
+Distance	9	1	1	1	1	1
+Cost		12	2	2	2	2	2
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	2	2	2	2
+Explored	8	6	4	4	16	12
+Time		54	122	107	128	478	598
+Distance	9	7	1	1	1	1
+Cost		12	6	2	2	2	2
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	2	2	2	2	2
+Explored	8	2	5	5	16	5
+Time		181	61	231	160	622	328
+Distance	9	1	1	1	1	1
+Cost		12	2	2	2	2	2
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		8	6	2	2	2	2
+Explored	8	6	4	4	16	12
+Time		45	94	109	72	384	433
+Distance	9	7	1	1	1	1
+Cost		12	6	2	2	2	2
+
+Test #96
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	9	3	3	3	3
+Explored	9	9	8	8	16	7
+Time		213	284	328	296	626	397
+Distance	12	12	2	2	2	2
+Cost		11	11	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	3	3	3	3
+Explored	5	9	7	7	16	8
+Time		38	202	149	168	466	362
+Distance	6	12	2	2	2	2
+Cost		7	11	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		9	9	3	3	3	3
+Explored	9	9	8	8	16	7
+Time		203	277	237	315	621	403
+Distance	12	12	2	2	2	2
+Cost		11	11	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		5	9	3	3	3	3
+Explored	5	9	7	7	16	8
+Time		29	124	98	160	385	320
+Distance	6	12	2	2	2	2
+Cost		7	11	3	3	3	3
+
+Test #97
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	9	3	3	3	3
+Explored	11	9	11	11	16	8
+Time		253	287	399	444	630	447
+Distance	14	12	2	2	2	2
+Cost		15	13	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	5	3	3	3	3
+Explored	11	5	11	11	16	12
+Time		74	130	245	253	485	513
+Distance	14	6	2	2	2	2
+Cost		15	5	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	9	3	3	3	3
+Explored	11	9	11	11	16	8
+Time		269	290	346	326	626	423
+Distance	14	12	2	2	2	2
+Cost		15	13	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		11	5	3	3	3	3
+Explored	11	5	11	11	16	12
+Time		66	77	163	163	383	395
+Distance	14	6	2	2	2	2
+Cost		15	5	3	3	3	3
+
+Test #98
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	16	2	2	2	2
+Explored	2	16	2	2	16	1
+Time		30	458	82	82	583	85
+Distance	1	21	1	1	1	1
+Cost		1	21	1	1	1	1
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	16	2	2	2	2
+Explored	2	16	2	2	16	1
+Time		18	296	57	63	478	111
+Distance	1	21	1	1	1	1
+Cost		1	21	1	1	1	1
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	16	2	2	2	2
+Explored	2	16	2	2	16	1
+Time		29	456	50	54	579	83
+Distance	1	21	1	1	1	1
+Cost		1	21	1	1	1	1
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		2	16	2	2	2	2
+Explored	2	16	2	2	16	1
+Time		9	237	55	57	402	68
+Distance	1	21	1	1	1	1
+Cost		1	21	1	1	1	1
+
+Test #99
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	5	5	16	6
+Time		51	467	245	268	978	526
+Distance	2	20	2	2	2	2
+Cost		3	19	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	13	3	3	3	3
+Explored	3	13	5	5	16	2
+Time		23	305	117	139	669	180
+Distance	2	18	2	2	2	2
+Cost		3	19	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	15	3	3	3	3
+Explored	3	15	5	5	16	6
+Time		51	471	168	268	773	478
+Distance	2	20	2	2	2	2
+Cost		3	19	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	13	3	3	3	3
+Explored	3	13	5	5	16	2
+Time		14	175	118	134	625	162
+Distance	2	18	2	2	2	2
+Cost		3	19	3	3	3	3
+
+Test #100
+
+Adjacency Matrix, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	7	3	3	3	3
+Explored	7	7	6	6	16	5
+Time		155	292	315	323	632	280
+Distance	8	8	2	2	2	2
+Cost		11	7	3	3	3	3
+
+Adjacency List, Source -> Destination
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	7	3	3	3	3
+Explored	3	7	5	5	16	8
+Time		24	174	131	144	547	420
+Distance	2	8	2	2	2	2
+Cost		3	7	3	3	3	3
+
+Adjacency Matrix, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		7	7	3	3	3	3
+Explored	7	7	6	6	16	5
+Time		155	230	181	186	622	274
+Distance	8	8	2	2	2	2
+Cost		11	7	3	3	3	3
+
+Adjacency List, Destination -> Source
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Path		3	7	3	3	3	3
+Explored	3	7	5	5	16	8
+Time		15	111	97	78	385	340
+Distance	2	8	2	2	2	2
+Cost		3	7	3	3	3	3

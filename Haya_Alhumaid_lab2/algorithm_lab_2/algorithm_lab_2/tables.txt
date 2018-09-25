@@ -1,0 +1,25 @@
+		DFS Iter.	DFS Rec.	BFS Iter.	BFS Rec.	Dijkstra	A*
+Adjacency Matrix, Source -> Destination
+Path		8	2	2	2	2	2
+Explored	8	2	3	3	16	4
+Time		215	56	128	135	627	346
+Distance	9	1	1	1	1	1
+Cost		8	2	2	2	2	2
+Adjacency List, Source -> Destination
+Path		4	2	2	2	6	6
+Explored	4	2	3	3	16	9
+Time		32	35	63	68	403	583
+Distance	3	1	1	1	7	7
+Cost		4	2	2	2	8	8
+Adjacency Matrix, Destination -> Source
+Path		8	2	2	2	2	2
+Explored	8	2	3	3	16	4
+Time		215	56	128	135	627	346
+Distance	9	1	1	1	1	1
+Cost		8	2	2	2	2	2
+Adjacency List, Destination -> Source
+Path		4	2	2	2	6	6
+Explored	4	2	3	3	16	9
+Time		32	35	63	68	403	583
+Distance	3	1	1	1	7	7
+Cost		4	2	2	2	8	8
