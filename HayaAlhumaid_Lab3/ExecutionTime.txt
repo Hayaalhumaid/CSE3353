@@ -1,0 +1,2 @@
+Nodes	Naive    DP    
+6     0       15625
