@@ -1,0 +1,16 @@
+Tabu Search
+Cost: 19.8465
+Path: 1->4->8->5->7->3->6->2->
+Time: 100854 microseconds
+Genetic Search
+Cost: 22.2891
+Path: 1->7->3->5->4->8->2->6->
+Time: 3654 microseconds
+Simulated Annealing
+Cost: 22.8537
+Path: 1->2->7->3->6->4->5->8->
+Time: 57761 microseconds
+Particle Swarm Optimisation
+Cost: 19.8465
+Path: 1->2->6->3->7->5->8->4->
+Time: 87383 microseconds
